@@ -40,6 +40,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
     line-height: 70px;
+    color: white;
 }
 
 h4 {
@@ -47,7 +48,7 @@ h4 {
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #cf7438;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -59,7 +60,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #cf7438;
     top: 9px;
 }
 
@@ -249,7 +250,7 @@ nav li {
 nav li a {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #444;
+    color: rgb(134, 1, 211);
     font-size: 11px;
     font-weight: bold;
 }
@@ -501,7 +502,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #bee23b;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -536,7 +537,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #b57042;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -579,10 +580,7 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
+
 
 .portfolio-padding {
     padding: 50px 0;
